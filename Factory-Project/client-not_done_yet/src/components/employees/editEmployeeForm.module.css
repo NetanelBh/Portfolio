@@ -1,0 +1,24 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 1rem 0.5rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.update_action {
+  margin-right: 1rem;
+}
+
+.delete_action {
+  margin-left: 1rem;
+}
+
+.delete_btn:hover {
+  background-color: red;
+}

@@ -1,0 +1,16 @@
+.cell_data {
+  background-color: #fff0dc;
+  text-align: center;
+}
+
+.link:hover {
+  color:rgb(255, 63, 63);
+}
+
+.link_reference {
+  text-decoration: none;
+}
+
+.shift_date {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.log {
+  color:#3f3b00;
+  max-width: 20rem;
+  list-style: none;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0;
+}
+
+.log li {
+  border-radius: 4px;
+  margin: 0.75rem;
+  animation: slide-in-from-left 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards ;
+}
+
+#log li.highlighted {
+  background-color: #3f3b00;
+  color: white;
+}
+
+@keyframes slide-in-from-left {
+  0%{
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

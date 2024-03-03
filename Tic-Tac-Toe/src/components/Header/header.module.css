@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+}
+
+.header img {
+  margin: 3rem auto 1rem auto;
+  filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
+  width: 8rem;
+  object-fit: contain;
+}

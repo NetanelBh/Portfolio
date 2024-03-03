@@ -1,0 +1,36 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem auto;
+  width: 25rem;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: rgb(248, 192, 220);
+  animation: show-up 0.4s linear;
+}
+
+.error h2 {
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+
+.error p {
+  font: inherit;
+  font-size: 1rem;
+  margin: 0.5rem auto;
+  color: black;
+}
+
+@keyframes show-up {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

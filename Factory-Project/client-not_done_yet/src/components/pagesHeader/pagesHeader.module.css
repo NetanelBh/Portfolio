@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  background-color: #00A9FF;
+  align-items: center;
+}
+
+.header > .btn {
+  margin: auto 0.5rem auto 0;
+  padding: 5px;
+  font-size: 1.5rem;
+  background-color: #CDF5FD;
+  border: 1px solid black
+}
+
+.header h2 {
+  margin: 1rem 0 1rem 0.5rem;
+  color: white
+}
+
+.btn:hover {
+  border: 1px solid red;
+  background-color: #89CFF3;
+  color: black;
+}

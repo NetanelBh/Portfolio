@@ -1,0 +1,41 @@
+.control-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.modal-actions .text-button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #312c1d;
+}
+
+.modal-actions .text-button:hover,
+.modal-actions .text-button:active {
+  color: #ff8800;
+}
+
+.modal-actions .button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #ffd651;
+  border: 1px solid #ffd651;
+  color: #1f1a09;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.modal-actions .button:hover,
+.modal-actions .button:active {
+  background-color: #ffab04;
+  border-color: #ffab04;
+  color: #1f1a09;
+}

@@ -1,0 +1,22 @@
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 2rem auto 2rem auto;
+}
+
+button {
+  font-size: 1.4rem;
+  background-color: #fff0dc;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: #83A2FF;
+  border-color: #83A2FF;
+}

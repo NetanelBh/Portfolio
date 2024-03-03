@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 2rem 25% 2rem 25%;
+  background-color: #FFE3BB;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto 1rem auto;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 1.3rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.submit_btn {
+  border-radius: 6px;
+  box-shadow:0 1px 3px grey;
+}
+
+.fetched_data {
+  text-align: center;
+}

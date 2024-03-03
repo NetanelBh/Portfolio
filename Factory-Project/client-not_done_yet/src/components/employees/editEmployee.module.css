@@ -1,0 +1,46 @@
+.emp_container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 2rem auto 0 auto;
+  background-color: #FFE3BB;
+}
+
+.shift_container {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  background-color: #FFE3BB;
+}
+
+.emp_name {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #83A2FF;
+}
+
+.shifts_header {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.no_shift_msg {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.register {
+  text-align: center;
+}
+
+/* .available_shifts_container {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  background-color: #FFE3BB;
+} */

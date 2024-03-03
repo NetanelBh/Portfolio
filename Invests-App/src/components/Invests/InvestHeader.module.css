@@ -1,0 +1,23 @@
+.header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, red, orange, yellow, rgb(142, 77, 185), rgb(29, 252, 29));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: header_text 150s linear infinite;
+}
+
+@keyframes header_text{
+  to {background-position: 4500vh;}
+}

@@ -1,0 +1,75 @@
+.background {
+  height: 100vh;
+  background-color: #b1c6ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.login_main {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFE3BB;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin: 1rem 12.5% 2rem 12.5%;
+  color: rgb(54, 83, 252);
+}
+
+.username {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 18rem;
+}
+
+label {
+  margin-right: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.email {
+  margin-left: 3.9rem;
+}
+
+input:focus {
+  background-color: rgb(253, 228, 225);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgb(54, 83, 252);
+  color: white;
+  border-color: transparent;
+}
+
+@media (max-width: 840px) {
+  .username {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+}

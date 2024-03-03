@@ -1,0 +1,9 @@
+.card {
+  border-radius: 12px;
+  animation: back 2.5s infinite;
+}
+
+@keyframes back {
+  from {box-shadow: 1px 2px white;}  
+  to {box-shadow: 1px 2px yellow;}
+}

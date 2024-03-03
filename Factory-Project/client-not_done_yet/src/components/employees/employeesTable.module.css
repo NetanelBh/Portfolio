@@ -1,0 +1,11 @@
+.grid_container {
+  width: 60%;
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 2fr;
+  list-style: none;
+  margin: 2rem auto;
+  gap: 0.1rem;
+  background-color: black;
+  padding: 0.1rem;
+}
