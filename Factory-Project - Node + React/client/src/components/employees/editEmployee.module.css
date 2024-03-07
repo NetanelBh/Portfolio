@@ -39,8 +39,12 @@
   text-align: center;
 }
 
-/* .available_shifts_container {
+.available_shifts_container {
   width: 60%;
   margin: 0 auto 0 auto;
   background-color: #FFE3BB;
-} */
+}
+
+.register_btn {
+  margin-top: 1rem;
+}

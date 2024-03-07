@@ -1,0 +1,17 @@
+.grid_container {
+  width: 60%;
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  margin: 2rem auto;
+  gap: 0.1rem;
+  background-color: black;
+  padding: 0.1rem;
+}
+
+.cell_data {
+  background-color: #B4BDFF;
+  text-align: center;
+  font-weight: bold;
+}

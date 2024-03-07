@@ -6,7 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 import Button from "../UI/Button";
 import EmployeesTable from "./employeesTable";
 import PagesHeader from "../pagesHeader/pagesHeader";
-import DepDropDown from "../departments/depDropDown";
+import DropDown from "../dropDown/dropDown";
 
 const Employees = () => {
   const [employees, setEmployees] = useState([]);
@@ -56,12 +56,24 @@ const Employees = () => {
   };
 
   const headers = ["fullName", "department", "shifts"];
+  const options = [
+    "R&D",
+    "Finance",
+    "QA",
+    "Design",
+    "Product",
+    "Maintenance",
+    "Sales",
+    "HR",
+    "Customer Support",
+    "Marketing",
+  ];
 
   return (
     <div className={styles.main}>
       <PagesHeader userName={userName} pageName={"Employees List"} />
       <div className={styles.actions}>
-        <DepDropDown title="Choose Department" onChange={selectedDepHandler} />
+        <DropDown title="Choose Department" onChange={selectedDepHandler} options={options}/>
         <Button type="button" onClick={addEmployeeHandler}>
           New Employee
         </Button>

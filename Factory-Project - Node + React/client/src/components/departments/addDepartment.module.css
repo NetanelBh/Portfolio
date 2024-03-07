@@ -1,0 +1,18 @@
+.dep_container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 2rem auto 0 auto;
+  background-color: #ffe3bb;
+}
+
+.dep_name {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #83a2ff;
+}

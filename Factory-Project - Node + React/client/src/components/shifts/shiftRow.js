@@ -1,4 +1,4 @@
-import styles from "./shiftRow.module.css";
+import styles from "./availableShiftTableRow.module.css";
 
 const ShiftRow = ({shift, className}) => {
   const classes = `${styles.row} ${className}`;

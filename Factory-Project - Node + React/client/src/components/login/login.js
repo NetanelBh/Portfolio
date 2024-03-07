@@ -13,8 +13,8 @@ const Login = () => {
   const userRef = useRef();
   const emailRef = useRef();
 
-  const loginHandler = async (url, config) => {
-    await sendHttp(url, config);
+  const loginHandler = (url, config) => {
+    sendHttp(url, config);
 
     // If the user authenticated, will store the user name and the token
     if (loginData.success) {

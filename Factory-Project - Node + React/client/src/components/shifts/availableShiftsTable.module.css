@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+  gap: 0.1rem;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #FFE3BB;
+}
