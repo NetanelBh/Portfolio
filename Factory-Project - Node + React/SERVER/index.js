@@ -41,12 +41,13 @@ app.use("/auth", authRouter);
 app.use(async (req, res, next) => {
   // First check if the user logged in to system
   if (req.session && req.session.user) {
-    // extract the user and the generated token from req.session.user to verify
+    // extract the user and generated token from req.session.user to verify
     const { userName, token } = req.session.user;
     //Extract the token from the user current request
     const requestToken = req.headers["x-access-token"];
 
-    if (!token) return res.status(401).json("No token provided by the user");
+    if (requestToken === "" || !requestToken)
+      return res.status(401).json("No token provided by the user");
     // Check if token from the user request equals to generated token from login
     if (token !== requestToken) return res.status(401).json("Invalid token");
 
@@ -97,7 +98,7 @@ app.use("/employees", employeesRouter);
 let lastCheckedDay = new Date().getDate();
 // Check every minute if the day changed
 setInterval(async () => {
-  const {isDayChanged, newDay} = CheckDayChanging(lastCheckedDay);
+  const { isDayChanged, newDay } = CheckDayChanging(lastCheckedDay);
   if (isDayChanged) {
     lastCheckedDay = newDay;
     try {
