@@ -107,7 +107,7 @@ setInterval(async () => {
       console.log(error);
     }
   }
-}, 60000);
+}, 1000);
 
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
