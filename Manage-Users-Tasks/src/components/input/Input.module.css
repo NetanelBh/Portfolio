@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.input {
+  width: 13rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}

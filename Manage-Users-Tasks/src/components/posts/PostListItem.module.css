@@ -1,0 +1,15 @@
+.li_container {
+  border: 2px solid black;
+  margin: 1rem;
+  width: 25rem;
+}
+
+.title {
+  text-align: left;
+  margin: 0 auto 0.5rem auto;
+}
+
+.prefix {
+  font-weight: bold;
+  color: blue;
+}

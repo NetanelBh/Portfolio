@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  padding: 0;
+  padding-right: 0.5rem;
+  margin: 2rem 1.1rem 3.2rem 1.5rem;
+  overflow: auto;
+}
+
+.completed_border {
+  border: 2px solid green;
+  margin-bottom: 1rem;
+}
+
+.uncompleted_border {
+  border: 2px solid red;
+  margin-bottom: 1rem;
+}
+
+.orange_background {
+  background-color: rgb(255, 204, 108);
+}

@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  margin-top: 6vh;
+}
+
+h3 {
+  margin: 0;
+}
+
+.btn {
+  font-size: 1rem;
+  width: fit-content;
+  background-color: rgb(238, 238, 158);
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+  height: 35vh;
+  max-height: 35vh;
+  overflow: auto;
+}
+
+.post_list {
+  list-style: none;
+  margin: 0;
+}
+
+@media (max-width: 965.6px) {
+  .main_container {
+    width: auto;
+  }
+}

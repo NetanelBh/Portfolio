@@ -1,0 +1,94 @@
+li {
+  padding: 0.5rem
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.other_data {
+  width: fit-content;
+  background-color: rgb(182, 182, 182);
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  padding: 0.3rem;
+}
+
+.additional_section {
+  display: none;
+}
+
+.additional_data {
+  background-color: rgb(223, 229, 255);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.additional_container {
+  padding: 0.3rem 0 0 1rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.additional_input {
+  font-size: 1rem;
+  border: 2px solid black;
+  padding-left: 0.3rem;
+}
+
+.street_input {
+  margin-left: 1.6rem;
+}
+
+.city_input {
+  margin-left: 2.2rem;
+}
+
+.postal_input {
+  margin-left: 0.2rem;
+}
+
+.other_data:hover + .additional_section {
+  display: block;
+}
+
+.other_data:active + .additional_section {
+  display: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  width: fit-content;
+  background-color: rgb(238, 238, 158);
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.update:hover {
+  background-color: rgb(255, 255, 83);
+}
+
+.id:hover {
+  cursor: pointer;
+  background-color: rgb(255, 126, 6);
+}
