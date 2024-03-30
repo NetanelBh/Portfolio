@@ -11,6 +11,18 @@
   border-radius: 80px;
   margin-left: 3rem;
   margin-top: 2rem;
+  background-image: url('../../assets/emoji.png');
+  background-size: 100px;
+  animation: background_anim 30s linear infinite ;
+}
+
+@keyframes background_anim {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -500px -500px;
+  }
 }
 
 .tasks_container {

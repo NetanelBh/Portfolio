@@ -2,18 +2,22 @@ ul {
   list-style: none;
   padding: 0;
   padding-right: 0.5rem;
-  margin: 2rem 1.1rem 3.2rem 1.5rem;
+  margin: 2rem 1.1rem 3.2rem 1.1rem;
   overflow: auto;
+  background-color: rgb(255, 245, 214);
+  border: 2px solid black;
 }
 
 .completed_border {
   border: 2px solid green;
   margin-bottom: 1rem;
+  margin-left: 0.5rem;
 }
 
 .uncompleted_border {
   border: 2px solid red;
   margin-bottom: 1rem;
+  margin-left: 0.5rem;
 }
 
 .orange_background {
