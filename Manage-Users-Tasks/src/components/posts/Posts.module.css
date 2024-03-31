@@ -15,7 +15,7 @@ h3 {
   background-color: rgb(238, 238, 158);
 }
 
-.btn:hover, .action_btn:hover {
+.btn:hover {
   background-color: rgb(255, 255, 83);
 }
 
