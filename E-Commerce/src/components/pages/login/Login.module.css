@@ -1,0 +1,132 @@
+input:focus {
+  background-color: rgb(253, 253, 201);  
+}
+
+.root {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../../../assets/main_background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position-y: -4rem;
+  animation: background_anim 15s infinite linear;
+}
+
+@keyframes background_anim {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 1500px;
+  }
+}
+
+.main_container {
+  background-color: rgb(233, 233, 233);
+  margin: 3rem auto 0 auto;
+  max-width: 40rem;
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 10px 1px rgb(121, 109, 109);
+}
+
+.inner_container {
+  background-color: #4F4557;
+  box-shadow: 1px 1px 5px 1px rgb(0, 255, 213);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > h1 {
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(252, 33, 223),
+    rgb(48, 241, 255),
+    rgb(0, 174, 255),
+    yellow,
+    orange,
+    red
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: header_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes header_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.input_container {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.input_container input {
+  border: none;
+  font-size: 1.2rem;
+  padding: 3px;
+}
+
+.input_container label {
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.input_direction {
+  flex-direction: column;
+}
+
+.invalid {
+  color: red;
+  font-size: 1.2rem;
+  margin: 0.5rem auto 0 auto;
+}
+
+.login_btn {
+  background-color: #A0E9FF;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin: 0.5rem 1rem 1rem 1rem;
+  border: 1px solid #c5c2e0;
+}
+
+.login_btn:hover {
+  background-color: #11009E;
+  border: 1px solid white;
+  color: white;
+}
+
+.form span {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.reg_link {
+  border: none;
+  background-color: transparent;
+  color: #A0E9FF;
+  font-size: 1.2rem;
+  text-decoration: none;
+}

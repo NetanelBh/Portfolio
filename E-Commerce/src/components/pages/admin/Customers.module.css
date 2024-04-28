@@ -1,0 +1,23 @@
+.main_container {
+  background-color: #79c7f8;
+  width: 50rem;
+  text-align: center;
+  max-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 2rem auto;
+}
+
+.main_container h1 {
+  margin: 1rem;
+}
+
+.table_container {
+  margin: 1rem;
+  overflow: auto;
+}
+
+.inner_table {
+  max-height: 35vh;
+  overflow: auto;
+}

@@ -1,0 +1,15 @@
+.chart_container {
+  margin-bottom: 3rem;
+  background-color: #DAF5FF;
+}
+
+.select {
+  display: flex;
+  margin: 1rem 0.5rem 1rem auto;
+  font-size: 1rem;
+  justify-content: end;
+  text-align: center;
+  height: 3rem;
+  background-color: #1D5D9B;
+  color: whitesmoke;
+}

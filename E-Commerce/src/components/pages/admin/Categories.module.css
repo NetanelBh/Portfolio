@@ -1,0 +1,56 @@
+.main_container {
+  background-color: #79c7f8;
+  width: 40rem;
+  text-align: center;
+  max-height: 78vh;
+  margin-top: 2rem;
+}
+
+.main_container h1 {
+  margin-top: 1rem;
+}
+
+/* The container which contain the categories list */
+.list_container {
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: #D6E6F2;
+  box-shadow: 1px 1px 3px 1px #F1FCFD;
+}
+
+/* div that wrap the items for the overflow */
+.content_container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 50vh;
+}
+
+/* div to wrap the actions container to exclude it from overflow bar */
+.actions_wrapper {
+  margin-top: 1.5rem;
+}
+
+/* The buttons within the list item */
+.item_actions {
+  display: flex;
+  margin: 1rem auto 1rem 1rem;
+}
+
+.item_actions input {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  width: 80%;
+}
+
+.btn {
+  font-size: 1.2rem;
+  background-color: #BDD8F1;
+  width: 5rem;
+  height: 2rem;
+}
+
+.btn:hover {
+  background-color: #8dc4ff;
+}

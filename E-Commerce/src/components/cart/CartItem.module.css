@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #94c2ff;
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 3px 2px #006efe;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.title {
+  width: 35%;
+}
+
+.action_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 20%;
+  background-color: #d6e6f2;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.qty_badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #006efe;
+  border-radius: 50%;
+  padding: 0.3rem 0.5rem;
+  font-weight: bold;
+}
+
+.price_section {
+  margin-right: 1rem;
+  width: 35%;
+}
+
+.cancel_btn {
+  background-color: rgb(255, 89, 89);
+  font-size: 1.2rem;
+}
+
+.cancel_btn:hover {
+  background-color: red;
+}

@@ -1,0 +1,91 @@
+/* The container which contain the categories list */
+.li {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  background-color: #D6E6F2;
+  box-shadow: 1px 1px 3px 2px #0133bb;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.row_input {
+  font-size: 1.2rem;
+  margin: auto auto 0.5rem 1rem;
+}
+
+.row_input label, input {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+.column_input {
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  width: 80%;
+  margin: 0.5rem auto 0.5rem auto;
+}
+
+.column_input label {
+  margin-bottom: 0.3rem;
+}
+
+.category {
+  display: flex;
+  width: 76%;
+  margin: 0.5rem auto 0.5rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem
+}
+
+.category select {
+  font-size: 1.2rem;
+  height: 2rem;
+  width:auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  margin: 0 auto 1rem 1rem;
+  text-align: left;
+}
+
+.description label {
+  font-size: 1.2rem;
+}
+
+.description textarea {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  height: 14.5rem;
+}
+
+.table_container {
+  display: flex;
+  margin: 2rem 1rem 0 0;
+  max-height: 15.5rem;
+  overflow: auto;
+}
+
+.save_btn {
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 8rem;
+  margin: 0.5rem auto 0.5rem 1rem;
+  background-color: #0063cc;
+  color: white;
+  border: 1px solid #000000;
+}
+
+.save_btn:hover {
+  background-color: #0133bb;
+  border: 1px solid #000000;
+  color: whitesmoke;
+}
