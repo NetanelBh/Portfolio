@@ -34,7 +34,6 @@ const MyAccount = () => {
     updateDocument("users", userDetails.id, userDetails, { merge: true });
 
     setIsSaved(true);
-    // alert("User updated successfully");
   };
 
   const cancelAlertHandler = () => {
