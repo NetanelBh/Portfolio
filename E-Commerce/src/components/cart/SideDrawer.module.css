@@ -53,4 +53,5 @@
 
 .close_btn {
   margin: auto 0 1rem auto;
+  transform: rotate(180deg);
 }
