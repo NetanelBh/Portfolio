@@ -30,13 +30,13 @@ const UserProducts = () => {
   const clearHandler = () => {
     setPriceBarValue(0);
     setFilteredSearch("");
-    setSelectedCategory("All");
+    setSelectedCategory("all");
   };
 
   let filteredProducts = [...products];
 
   // Filter the products by category
-  if (selectedCategory !== "All") {
+  if (selectedCategory !== "all") {
     filteredProducts = filteredProducts.filter((product) => {
       return product.category === selectedCategory;
     });
