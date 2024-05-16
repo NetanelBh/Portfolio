@@ -9,7 +9,6 @@ import Button from "../UI/Button";
 import CartItem from "./CartItem";
 import AlertDialog from "../dialog/Dialog";
 import openCartSvg from "../utils/openCartSvg";
-import closeCartSvg from "../utils/closeCartSvg";
 import getCurrentDate from "../utils/getCurrentDate";
 
 const SideDrawer = () => {
@@ -90,7 +89,7 @@ const SideDrawer = () => {
           )}
           <Button
             className={`${styles.arrow_btn} ${styles.close_btn}`}
-            title={closeCartSvg()}
+            title={openCartSvg()}
             type="button"
             onClick={cartArrowClickHandler}
           />
