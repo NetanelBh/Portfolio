@@ -10,7 +10,7 @@ import SideDrawer from "../../cart/SideDrawer";
 const UserProducts = () => {
   const [priceBarValue, setPriceBarValue] = useState(0);
   const [filteredSearch, setFilteredSearch] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("all");
 
   const cart = useSelector((state) => state.cart);
   const products = useSelector((state) => state.products.products);
