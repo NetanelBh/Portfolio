@@ -1,0 +1,14 @@
+#header {
+    margin-left: 1.5rem;
+    color: var(--labels-color);
+    text-decoration: underline;
+}
+
+.edit_subscription_button {
+    font-size: var(--label-font-size);
+    border-radius: 5px;
+}
+
+.edit_subscription_button:hover {
+    background-color: var(--focus-background-color);
+}

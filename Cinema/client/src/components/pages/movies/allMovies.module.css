@@ -1,0 +1,22 @@
+:root {
+    --div-background-color: #31363F;
+    --delete-button-hover-color: #f20c14;
+    --movie-name-size: 2rem;
+    --font-size: 1.5rem;
+    --inner-font-size: 1.2rem
+}
+
+.all_movies_search {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 8rem;
+    gap: 10px;
+    background: var(--div-background-color);
+    height: 3.5rem;
+    box-shadow: 0 1px 1px white;
+}
+
+.all_movies_search label {
+    color: var(--labels-color);
+}

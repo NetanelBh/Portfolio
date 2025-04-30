@@ -1,0 +1,30 @@
+:root {
+    --action-buttons-hover-background: #fff27b;
+    --input-background-color: #BCCCDC;
+}
+
+.edit_employee_input {
+    margin-bottom: 0.5rem;
+}
+
+.edit_employee_actions {
+    justify-content: flex-start;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.edit_employee_action_buttons {
+    font-size: var(--label-font-size);
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.edit_employee_action_buttons:hover {
+    background-color: var(--action-buttons-hover-background);
+    border-color: var(--action-buttons-hover-background);
+}
+
+#header {
+    margin-left: 1.5rem;
+    color: var(--labels-color);
+    text-decoration: underline;
+}

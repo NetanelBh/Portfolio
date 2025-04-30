@@ -1,0 +1,20 @@
+.ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+.li {
+    margin: 0 0.5rem 0 1rem;
+}
+
+.li a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.ul .li a.active {
+   color: rgb(10, 67, 113); 
+} 

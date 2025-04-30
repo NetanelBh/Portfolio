@@ -1,0 +1,22 @@
+.edit_movie_form_container {
+    height: fit-content;
+}
+
+.edit_movie_form_container label {
+    color: var(--labels-color);
+}
+
+.edit_movie_button {
+    font-size: var(--label-font-size);
+    border-radius: 5px;
+}
+
+.edit_movie_button:hover {
+    background-color: var(--focus-background-color);
+}
+
+#header {
+    margin-left: 1.5rem;
+    color: var(--labels-color);
+    text-decoration: underline;
+}

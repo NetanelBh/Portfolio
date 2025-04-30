@@ -1,0 +1,15 @@
+.permissions_list {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    padding-left: 20px;
+}
+
+.permissions_list_li {
+    display: flex;
+    margin-bottom: 0.3rem;
+    gap: 10px;
+}
+
+.perm_input {
+    transform: scale(1.3);
+}

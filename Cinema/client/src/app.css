@@ -1,0 +1,92 @@
+:root {
+    --input-font-size: 1.1rem;
+    --label-font-size: 1.5rem;
+    --labels-color: #fffdf0;
+    --focus-background-color: #fff6a4;
+    --background-color: #ccd9ec;
+
+    /* For Card */
+    --border-color: #ec7575;
+}
+
+input {
+    /* when some property value is changed here, it will take 0.5s  */
+    transition: 0.5s ease-out;
+    background-color: var(--background-color);
+    font-size: var(--input-font-size);
+    padding: 3px;
+    outline: none;
+    height: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+input:focus {
+    background-color: var(--focus-background-color);
+}
+
+label {
+    margin-bottom: 0.2rem;
+    font-size: var(--label-font-size);
+}
+
+#list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#form_container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem auto auto 1.5rem;
+    padding: 10px;
+    gap: 0.5rem;
+    font-size: var(--labels-font-size);
+    color: var(--labels-color);
+    min-height: 50vh;
+}
+
+/* For the text in add and edit employee pages */
+form > p {
+    color: var(--labels-color);
+    margin: 0 0 0.5rem 0;
+    font-size: var(--label-font-size);
+}
+
+#perm_size {
+    font-size: var(--input-font-size);
+}
+
+.generic_card {
+    display: flex;
+    margin: 1rem 15px 2rem 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    animation: wow 1.5s linear infinite;
+}
+
+@keyframes wow {
+    0% {
+        box-shadow: 0 0 5px var(--border-color);
+    }
+    50% {
+        box-shadow: 0 0 10px var(--border-color);
+    }
+    100% {
+        box-shadow: 0 0 5px var(--border-color);
+    }
+}
+
+#action_buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#no_permission {
+    font-size: var(--label-font-size);
+    color: var(--focus-background-color);
+}

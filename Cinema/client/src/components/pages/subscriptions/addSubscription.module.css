@@ -1,0 +1,19 @@
+.add_subs_actions {
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.add_subs_button {
+	font-size: var(--label-font-size);
+	border-radius: 5px;
+}
+
+.add_subs_button:hover {
+	background-color: var(--focus-background-color);
+}
+
+.add_subs_no_permission {
+	font-size: var(--label-font-size);
+	color: var(--focus-background-color);
+}

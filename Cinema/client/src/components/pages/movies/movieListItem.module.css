@@ -1,0 +1,76 @@
+.all_movies_list_li {
+	color: var(--labels-color);
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.all_movies_list_li span {
+	margin-bottom: 0.5rem;
+}
+
+.all_movies_list_subscriptions_container span {
+	color: var(--focus-background-color);
+}
+
+.all_movies_list_movie_name {
+	font-size: var(--movie-name-size);
+	font-weight: bold;
+}
+
+.all_movies_list_genre {
+	font-size: var(--label-font-size);
+}
+
+.all_movies_list_image_subscription_container {
+	display: flex;
+	gap: 2rem;
+	margin: 1rem 0 0.5rem 0;
+	width: 100%;
+	max-height: 70%;
+}
+
+.all_movies_list_image {
+	height: 42vh;
+	overflow: hidden;
+	box-shadow: 0 0 5px 1.5px var(--labels-color);
+	flex: 3;
+}
+
+.all_movies_list_subscriptions_container {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 5px 1.5px var(--labels-color);
+	flex: 5;
+}
+
+.all_movies_list_subscriptions_container span {
+	font-size: var(--label-font-size);
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+.all_movies_list_item_actions {
+	display: flex;
+	margin: 0.5rem auto 0.5rem 0;
+	gap: 0.5rem;
+}
+
+.all_movies_list_item_actions_edit {
+	font-size: var(--label-font-size);
+    border-radius: 5px;
+}
+
+.all_movies_list_item_actions_delete {
+	font-size: var(--label-font-size);
+    border-radius: 5px;
+}
+
+.all_movies_list_item_actions_delete:hover {
+    background-color: var(--delete-button-hover-color);
+}
+
+.all_movies_list_item_actions_edit:hover {
+    background-color: var(--focus-background-color);
+}

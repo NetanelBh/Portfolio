@@ -1,0 +1,30 @@
+.web_content_nav_container {
+    position: sticky;
+    top: 4rem;
+    background: #31363F;
+}
+
+.ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+.li {
+    margin: 0 0.5rem 0 0;
+    padding: 5px;
+}
+
+.li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.ul .li a.active {
+    color: #31363F;
+    border: 1px solid blue;
+    background-color: #FAFFC5;
+    text-decoration: none;
+ } 

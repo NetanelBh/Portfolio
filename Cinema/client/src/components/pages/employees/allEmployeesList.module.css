@@ -1,0 +1,74 @@
+:root {
+    --box-shadow-color: #eeeeee;
+    --text-color: #faffc5;
+    --action-buttons-font-size: 1.2rem;
+    --actions-border-color: #fa4032;
+    --delete-button-hover-color: #f20c14;
+    --action-buttons-hover-background: #faf09a;
+}
+
+.all_emp_list_ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    width: 40%;
+    height: auto;
+}
+
+.all_employees_li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.details_wrapper {
+    font-size: 1.3rem;
+    color: var(--box-shadow-color);
+    margin: 0.3rem auto 0.3rem 0;
+}
+
+.employee_data_content {
+    color: var(--text-color);
+}
+
+.all_emp_permissions {
+    display: flex;
+}
+
+.all_emp_permissions_list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.all_emp_permissions_list p {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.all_emp_list_actions {
+    display: flex;
+    width: 100%;
+    margin: 0.5rem auto 0.5rem 0;
+    padding-top: 10px;
+    border-top: #eeeeee 1px solid;
+    gap: 0.5rem;
+}
+
+.all_emp_list_action_buttons {
+    background-color: var(--text-color);
+    font-size: var(--action-buttons-font-size);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: var(--actions-border-color);
+    cursor: pointer;
+}
+
+.all_emp_list_action_buttons:hover {
+    background-color: var(--action-buttons-hover-background);
+    border-color: var(--text-color);
+}
+
+.delete_btn:hover {
+    color: var(--delete-button-hover-color);
+}

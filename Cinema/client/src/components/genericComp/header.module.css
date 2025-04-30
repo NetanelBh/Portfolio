@@ -1,0 +1,15 @@
+header {
+    background: linear-gradient(to right, #6528f7, #a076f9, #ff25c1);
+    background-clip: text;
+    background-size: 200% 100%;
+    color: transparent;
+    font-size: 3rem;
+    text-align: center;
+    animation: gradientMove 2.5s linear infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 200% 0;
+    }
+}

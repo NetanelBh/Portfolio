@@ -1,0 +1,19 @@
+.movies_subscriptions_list_ul {
+    margin-top: 1rem;
+    height: 100%;
+    overflow: auto;
+}
+
+.movies_subscriptions_list_ul_li {
+    margin: 0.5rem auto 0.5rem auto;
+}
+
+.movies_subscriptions_list_ul_li a {
+    font-size: var(--inner-font-size);
+    color: var(--font-color);
+}
+
+.movies_subscriptions_list_ul_li span {
+    font-size: var(--inner-font-size);
+    color: var(--font-color);
+}

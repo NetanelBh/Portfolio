@@ -1,0 +1,19 @@
+.add_movie_actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.add_movie_button {
+    font-size: var(--input-font-size);
+    border-radius: 5px;
+}
+
+.add_movie_button:hover {
+    background-color: var(--focus-background-color);
+}
+
+.add_movie_no_permission {
+    font-size: var(--input-font-size);
+    color: var(--focus-background-color);
+}

@@ -1,0 +1,45 @@
+.main_layout_background {
+    background-color: #31363f;
+    margin-bottom: 1rem;
+}
+
+.main_layout_header {
+    padding: 3rem 0 2rem 0;
+}
+
+.main_layout_space {
+    height: 0.1rem;
+    background-color: white;
+}
+
+.main_layout_employee_name {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+    color: #fff27b;
+}
+
+.main_layout_bar_container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #87a2ff;
+    height: 4rem;
+    width: 100%;
+    box-shadow: 1px 5px 5px #8f8f8f;
+    margin-bottom: 0.2rem;
+    z-index: 10;
+}
+
+.logout {
+    height: 90px;
+    width: 90px;
+}
+
+.logout:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+:root {
+    --general-font-size: 1.2rem;
+    --focus-background-color: #fff6a4;
+    --input-background-color: #BCCCDC;
+    --action-buttons-hover-background: #fff27b;
+}
+
+.add_employee_input {
+    margin-bottom: 0.5rem;
+}
+
+.add_employee_input input {
+    padding-left: 5px;
+    margin-left: 0.5rem;
+    background-color: var(--input-background-color);
+}
+
+.add_employee_input input:focus {
+    background-color: var(--focus-background-color);
+    transition: 0.5s ease-in-out;
+}
+
+.add_employee_actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.add_employee_action_buttons {
+    font-size: var(--general-font-size);
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+.add_employee_action_buttons:hover {
+    background-color: var(--action-buttons-hover-background);
+    border-color: var(--action-buttons-hover-background);
+}

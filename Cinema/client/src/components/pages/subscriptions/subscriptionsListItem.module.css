@@ -1,0 +1,118 @@
+.all_subs_list_item {
+    padding: 5px 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.all_subs_list_item_name {
+    font-size: var(--label-font-size);
+    color: var(--focus-background-color);
+    margin: 1 0 2rem 0;
+}
+
+.all_subs_list_item_details {
+    margin: 0.2rem 0 0.2rem 0;
+    font-size: 1.2rem;
+    color: var(--labels-color);
+} 
+
+.all_subs_list_item_actions {
+	display: flex;
+	margin: 0.5rem auto 0.5rem 0;
+	gap: 0.5rem;
+}
+
+.all_subs_list_item_actions_edit {
+	font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.all_subs_list_item_actions_delete {
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.all_subs_list_item_actions_edit:hover {
+    background-color: var(--focus-background-color);
+}
+
+.all_subs_list_item_actions_delete:hover {
+    background-color: var(--delete-button-hover-color);
+}
+
+.all_subs_list_item_movies_card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 0.5rem 0;
+    padding-top: 0;
+    width: 80%;
+}
+
+.all_subs_list_item_movies_header {
+    font-size: var(--label-font-size);
+    text-align: center;
+}
+
+.all_subs_list_item_movie_subscribe_button {
+    border-radius: 10px;;
+    margin: 0 auto 1rem auto;
+    font-size: var(--input-font-size);
+    width: 80%;
+}
+
+.all_subs_list_item_movie_subscribe_button:hover {
+    background-color: var(--focus-background-color);
+    border-color: var(--focus-background-color);
+}
+
+.all_subs_list_item_new_subs_card {
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 80%;    
+    margin: 0.5rem auto 1rem auto;
+}
+
+.all_subs_list_item_new_subs h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.all_subs_list_item_movies_subs_data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.all_subs_list_item_movies_subs_data select {
+    width: 70%;
+    font-size: 1rem;
+}
+
+.all_subs_list_item_movies_subs_data input {
+    width: 30%;
+}
+
+.all_subs_list_item_new_subs_button {
+    border-radius: 5px;
+    font-size: var(--input-font-size);
+}
+
+.all_subs_list_item_new_subs_button:hover {
+    border-color: white;
+}
+
+.all_subs_list_item_movies_list {
+    list-style: decimal;
+    padding: 5px 5px 5px 15px;
+}
+
+.all_subs_list_item_movies_list li {
+    margin-bottom: 0.5rem;
+}
+
+.all_subs_list_item_movies_list a {
+    color: var(--focus-background-color);
+    font-size: 1.2rem;
+}
