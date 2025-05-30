@@ -1,7 +1,7 @@
 import styles from "./WebContentLayout.module.css";
 import { Outlet, useLocation } from "react-router-dom";
 
-import WebContentNavigationBar from "../navigateBar/WEbContentNavigationBar";
+import WebContentNavigationBar from "../navigateBar/WebContentNavigationBar";
 
 const WebContentLayout = () => {
 	// Get the current path location to determine which navigation bar to display
